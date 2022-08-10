@@ -22,7 +22,7 @@ const Navbar = () => {
           }
         };
         window.addEventListener('scroll', changeColor);
-      }, []);
+    }, []);
 
   return (
     <div style={{backgroundColor: `${color}`}} className='fixed left-0 top-0 w-full z-10 ease-in duration-300'>
